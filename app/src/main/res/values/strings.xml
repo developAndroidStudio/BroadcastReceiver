@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Broadcast Receiver</string>
+
+    <!--Activity :MainActivity.java  Layout: activity_main.xml-->
+    <string name="instrucccion_modo_avion">NOTA <b/>\n\nActiva el modo avión para ver la accción de MiBroadcastReceiver</string>
+    <string name="instrucccion_llamada">NOTA <b/>\n\nHaz que llamen a tu número telefonico para ver la accción de LlamadaReceiver</string>
 </resources>

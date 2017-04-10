@@ -7,13 +7,43 @@
     android:layout_margin="16dp"
     tools:context="mx.com.develop.broadcastreceiver.MainActivity">
 
+
     <Button
         android:id="@+id/btn_init_broadcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
         android:text="PULSAME"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/label_modo_avion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_init_broadcast"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="@string/instrucccion_modo_avion"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label_llamada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_modo_avion"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="@string/instrucccion_llamada"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 
 </RelativeLayout>
+
+

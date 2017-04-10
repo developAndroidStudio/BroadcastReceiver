@@ -1,11 +1,15 @@
 package mx.com.develop.broadcastreceiver;
 
+import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity  implements View.OnClickListener {
     Button btn_init_broadcast;
@@ -23,6 +27,8 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
     //<editor-fold desc="MÉTODO inicializarcomponentesUI()">
     private void inicializarcomponentesUI() {
         btn_init_broadcast = (Button) findViewById(R.id.btn_init_broadcast);
+
+
     }
     //</editor-fold>
 
@@ -47,4 +53,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
     }
     //</editor-fold>
+
+
 }
